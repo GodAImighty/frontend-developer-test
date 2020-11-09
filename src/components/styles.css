@@ -1,0 +1,30 @@
+body {
+  background-color: #eeeeee;
+}
+
+.data-table {
+  margin-bottom: 3rem;
+}
+
+.data-table .extra-things {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.data-table .extra-things > * {
+  align-self: center;
+}
+
+.data-table .button {
+  background-color: #3399ff;
+  text-transform: none;
+}
+
+.data-table .loading-spinner {
+  color: #3399ff;
+}
+
+.data-table .error {
+  margin-bottom: .5rem;
+}
